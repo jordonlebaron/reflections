@@ -13,12 +13,26 @@ like to commit together at the same time.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+You can compare the staging area to the repository (most recent commit) to see what changes
+have been made and adjust accordingly. You can also compare the staging area to the working
+directory to make sure the changes are the ones you'd like to commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Situations:
+- Because you can list the branches with command git branch, you can keep a list of branches
+containing all of the changes you'd like to make. 
+- It would be nice if each branch had a description, I guess you can find that in git log for
+each branch.
+- Branches help with experimenting or making other changes (e.g., other language versions,
+difficulty versions, etc.) so that you can try new elements without affection the master
+branch.
+
 How do the diagrams help you visualize the branch structure?
+
+They show graphical relationships between commits and parents as well as the different
+branches with their respective commits.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
