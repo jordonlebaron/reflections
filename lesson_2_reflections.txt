@@ -37,5 +37,12 @@ branches with their respective commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is a combination of changes made between the commit before the branches split and 
+the changes made to each branch -- with this comparison, git can look at the commit before
+the split and see what changes were made by each branch and put the branches together in
+timestamp order in a way that doesn't affect the contributions of each branch. It's 
+represented in the diagram this way to see how unique commits are made in each branch and
+how they can be combined together.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
