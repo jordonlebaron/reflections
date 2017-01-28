@@ -7,7 +7,10 @@ This would be helpful if you need to work on a different computer or if you are 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+Pulling the changes would allow you to review what changes have been made before committing them, in case work
+from another person requires review. This would also allow you to complete logical steps and save so that it
+is easier to refer to changes incrementally.
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
