@@ -41,4 +41,5 @@ timely.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+It's nice to make changes in a separate branch so that if collaborators
+are working on master, you can run your changes by them without affecting what they are working on, or without breaking master branch. It's also a nice way to categorize what changes/features you are working on.
